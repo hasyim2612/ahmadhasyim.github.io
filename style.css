@@ -1,0 +1,102 @@
+body {
+  background-color: #ffffff;
+}
+
+.banner {
+  background: url("image/e1.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+}
+
+.lingkaran {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #fff;
+  background-color: #6a44c9;
+}
+
+.lingkaran i {
+  position: relative;
+  top: 30px;
+}
+
+.crop-img {
+  object-fit: cover;
+}
+
+a.social {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #333;
+  line-height: 40px;
+}
+
+.kontak {
+  background: url("image/e2.jpg") no-repeat
+    center center;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  color: #fff;
+}
+
+.display-1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  text-shadow: 3px 3px 3px #00000049;
+}
+
+.display-6 {
+  text-shadow: 2px 2px 2px #00000049;
+}
+
+marquee {
+  text-shadow: 2px 2px 2px #00000049;
+}
+
+.mt-3 {
+  font-weight: 700;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.display-3 {
+  font-family: "Times New Roman", serif;
+  font-weight: bold;
+}
+
+.table {
+  width: 45%; /* Set table width to 50% of the container */
+  margin-left: 0; /* No margin on the left side */
+  border-collapse: collapse; /* Collapse table borders */
+  margin-top: 20px;
+}
+
+th,td {
+  text-align: left; /* Align text to the left */
+  padding: 15px; /* Add padding to cells */
+  border: 30px;
+}
+
+th {
+  background-color: #6a44c9;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f8f0ff;
+}
+
+marquee {
+  margin-bottom: 20px; /* Add bottom margin to create space below the header */
+}

@@ -1,0 +1,43 @@
+body {
+  background: linear-gradient(to bottom, #ffffff, #ffffff); /* Gradient from light pink to dark pink */
+}
+
+.banner {
+  background: url("image/e1.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+}
+
+.kontak {
+  background: url("image/e2.jpg") no-repeat
+    center center;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  color: #fff;
+}
+
+.display-1 {
+  font-family: "Times New Roman", serif;
+  font-weight: bold;
+  text-shadow: 3px 3px 3px #00000086;
+}
+
+.display-6 {
+  text-shadow: 2px 2px 2px #00000086;
+}
+
+.display-3 {
+  font-family: "Times New Roman", serif;
+  font-weight: bold;
+}
+
+marquee {
+  margin-bottom: 20px; /* Add bottom margin to create space below the header */
+}
+
+p {
+  text-align: justify; /* Justify text within the paragraph */
+}
